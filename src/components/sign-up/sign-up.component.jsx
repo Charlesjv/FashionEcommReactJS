@@ -15,7 +15,7 @@ class SignUp extends React.Component{
             displayName : '',
             email: '',
             password: '',
-            confirmPassword: ' '
+            confirmPassword: ''
 
         }
     }
@@ -99,7 +99,7 @@ class SignUp extends React.Component{
                     required>
                     </FormInput>
 
-                    <CustomButton type = 'submit'></CustomButton>
+                    <CustomButton type = 'submit'>SignUp</CustomButton>
                 </form>
             </div>
         )
